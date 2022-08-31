@@ -56,6 +56,12 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.profile {
+  height: 30em;
+  border-radius: 50em;
+}
+
 /* SITE-STRUCTURE */
 .site-header,
 .site-footer {
