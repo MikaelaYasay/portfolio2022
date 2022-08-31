@@ -107,7 +107,7 @@ section {
 /* #LAYOUT: THUMB IMAGE GRID */
 hr {
   border: 0;
-  height: 3px;
+  height: 3.2px;
   background-color: rgba(0, 0, 0,.5);
   margin: 5em 0;
 }
