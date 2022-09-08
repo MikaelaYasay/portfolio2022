@@ -81,6 +81,11 @@ img {
     font-weight: normal;
 }
 
+.site-identity a {
+  font-family: 'roc-grotesk', sans-serif;
+  font-weight: 700;
+}
+
 .site-navigation ul {
     margin: 0;
     padding: 2em 0;
