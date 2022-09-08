@@ -22,8 +22,10 @@
     #EFFECTS (FADE-INS)
 --------------------------------- */
 /* TYPOGRAPHY */
-body {
-    font-family: 'Helvetica, Arial sans-serif';
+body { 
+    font-family: 'albertan-pro', serif;
+    font-weight: 400;
+    font-style: normal;
     color: rgba(0, 0, 0, .7);
     max-width: 1000px;
     margin: 0 auto;
@@ -33,6 +35,8 @@ body {
 }
 
 h1 {
+    font-family: 'roc-grotesk', sans-serif;
+    font-weight: 700;
     font-size: 3em;
 }
 
@@ -116,18 +120,21 @@ hr {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .thumbgrid li {
     list-style: none;
-    width: 49.5%;
+    width: 31.3333%;
     padding-bottom: 0.4%;
+    margin: .9%;
 }
 
 @media (min-width: 768px) {
     .thumbgrid li {
-        width: 24.5%;
+        width: 31.3333%;
+        margin: .9%;
+
     }
 }
 
